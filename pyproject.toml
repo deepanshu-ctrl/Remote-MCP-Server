@@ -7,7 +7,9 @@ authors = [
     { name = "deepanshu-ctrl", email = "deepanshubirkhani99@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastmcp>=4.0.3",
+]
 
 [project.scripts]
 remote-mcp = "remote_mcp:main"
